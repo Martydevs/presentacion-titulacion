@@ -5,7 +5,7 @@ theme: seriph
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: https://cover.sli.dev
 # some information about your slides, markdown enabled
-title: Welcome to Slidev
+title: Proyecto Titulación
 info: |
   ## Slidev Starter Template
   Presentation slides for developers.
@@ -24,13 +24,12 @@ transition: slide-left
 mdc: true
 ---
 
-# Welcome to Slidev
-
-Presentation slides for developers
+# Proyecto Titulación
+Proyecto de Titulación LTI-9
 
 <div class="pt-12">
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
-    Press Space for next page <carbon:arrow-right class="inline"/>
+    Presiona espacio para pasar a la siguiente diapositiva <carbon:arrow-right class="inline"/>
   </span>
 </div>
 
