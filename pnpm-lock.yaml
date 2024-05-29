@@ -14,6 +14,9 @@ dependencies:
   '@slidev/theme-seriph':
     specifier: latest
     version: 0.25.0
+  slidev-theme-geist:
+    specifier: ^0.8.1
+    version: 0.8.1
   vue:
     specifier: ^3.4.27
     version: 3.4.27(typescript@5.4.5)
@@ -1219,6 +1222,11 @@ packages:
       '@slidev/types': 0.47.5
       codemirror-theme-vars: 0.1.2
       prism-theme-vars: 0.2.5
+    dev: false
+
+  /@slidev/types@0.28.10:
+    resolution: {integrity: sha512-XcJ12giBaeSHxImlYuDfO1XW686kWDq4uoftnPZyIxhNew4FREsbOLY8oG5Nz5qn05qSsnSDQGo55EbantKvfg==}
+    engines: {node: '>=14.0.0'}
     dev: false
 
   /@slidev/types@0.47.5:
@@ -4724,6 +4732,15 @@ packages:
     requiresBuild: true
     dev: false
     optional: true
+
+  /slidev-theme-geist@0.8.1:
+    resolution: {integrity: sha512-2DET+H1tvaFQyKYimg+4RlShLLnyOdW40GFfOH8kAJbsI1JOwzDiLv1UjyFO11y9O0/074/YIwArz9xg4Zde5A==}
+    engines: {node: '>=14', slidev: '>=0.20'}
+    dependencies:
+      '@slidev/types': 0.28.10
+      codemirror-theme-vars: 0.1.2
+      prism-theme-vars: 0.2.5
+    dev: false
 
   /source-map-js@1.2.0:
     resolution: {integrity: sha512-itJW8lvSA0TXEphiRoawsCksnlf8SyvmFzIhltqAHluXd88pkCd+cXJVHTDwdCr0IzwptSm035IHQktUu1QUMg==}
